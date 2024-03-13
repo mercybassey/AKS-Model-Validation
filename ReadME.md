@@ -11,7 +11,7 @@ The following steps outline how the data was selected and prepared;
 this dataset was collected from PubChem, one of the most comprehensive
 chemical databases available.
 
-- Searched for compounds on PubChem based on the project's specific criteria, that compounds data that contain ISOSMILES.
+- Searched for compounds on PubChem based on the project's specific criteria, that is compounds data that contain ISOSMILES.
 - Downloaded `1000` compound data from PubChem, including fields such as Compound ID, ISOSMILES, Canonical SMILES, among others, in CSV format.
 - Focused on ISOSMILES for analysis due to its inclusion of stereochemical information for solubility prediction models.
 - Removed all fields except for ISOSMILES from the dataset.
